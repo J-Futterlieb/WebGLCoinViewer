@@ -1,0 +1,20 @@
+<!doctype html>
+<!-- Example html-file, which demonstrates the visualization in a website by only including a script tag. -->
+<html lang="en">
+  <head>
+    <title>Viewer</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <style>
+      html, body {width:100%;height:100%;overflow:hidden;display:block;margin:0;padding:0;}
+    </style>
+  </head>
+  <body id="mainBody">
+    <!-- Example for full window visualization (parent is the body): -->
+    <script src="coin.js" type="text/javascript" parent="mainBody" coinData="coinData.json"></script>
+    
+    <!-- Example for embedding in existing table (parent is a table): -->
+    <!--<table width="400px" height="400px" id="exampleTable">
+      <script src="coin.js" type="text/javascript" parent="exampleTable" coinData="coinData.json"></script>
+    </table>-->
+  </body>
+</html>
